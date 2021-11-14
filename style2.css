@@ -1,0 +1,221 @@
+/************************************************/
+/************* UNIVERSAL ELEMENTS ***************/
+/************************************************/
+
+body,
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family: "Corbel", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: white; /* Change the font color*/
+  background-color: #0f1921; /* Change the background color */
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Corbel", sans-serif;
+  color: #6AA6A6;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: "Corbel", sans-serif;
+  color: #fcf4e8;
+  text-align: center;
+  line-height: 1.3em;
+  font-weight: normal;
+}
+
+
+
+
+
+p a {
+  color: #fcf4e8;
+  text-decoration: none;
+}
+
+/************************************************/
+/*************** CSS FOR NAV BAR ****************/
+/************************************************/
+
+
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #43d6b9ff;
+  border-style: solid;
+  border-color: #01261F;
+  font-family: "Corbel", sans-serif;
+}
+
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 15px;
+  font-family: "Corbel", sans-serif;
+}
+
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #01261F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Corbel", sans-serif;
+}
+
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #01261F;
+  color: #6AA6A6;
+}
+
+/************************************************/
+/*********** CSS FOR FLEXBOX HEADING ************/
+/************************************************/
+
+.flex-container {
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: wrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+   text-shadow: 2px 2px 8px #F4E98C;=
+
+  /* Design properties */
+  padding: 5px;
+
+  /* Positioning properties */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 30%; /* Change this value to move the box up or down */
+
+  /*border-style: dotted;*/
+}
+
+
+.heading-home {
+  padding: 2%;
+  color: #fcf4e8;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+
+  /*border-style: dotted;*/
+}
+
+.intro-text {
+  
+  padding: 4%;
+  margin: 3%;
+  color: #fcf4e8; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 1.4em; /* Adds space between lines */
+  text-align: center;
+
+  /*border-style: dotted;*/
+}
+
+/************************************************/
+/*************** PARALLAX SCROLL ****************/
+/************************************************/
+
+/*-----------TEXT SECTIONS-----------*/
+
+
+.text-section {
+  
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+}
+
+
+#created {
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: #fcf4e8; /* Change the font color*/
+  
+  box-sizing: border-box;
+}
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
+
+.main-message,
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #5FD9C2;
+  background-size: cover;
+  min-height: 100%; 
+}
+
+.main-message {
+  background-image: url(https://cdn.glitch.me/b2c36ddf-d811-4307-86cb-e74943d685b3%2Fstarsbackground.png?v=1636840420650);
+}
+
+.image-one {
+  background-image: url(https://cdn.glitch.me/b2c36ddf-d811-4307-86cb-e74943d685b3%2Fstarsbackground.png?v=1636840420650);
+}
+
+
+/*-----------IMAGE ATTRIBUTIONS-----------*/
+.attributions {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.flex-container2 {
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: wrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+
+  /* Design properties */
+  background-color: #0f1921;
+  padding: 25px;
+  color: #fcf4e8;
+
+  /* Positioning properties */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 120%; /* Change this value to move the box up or down */
+}
+
+  .schedule_button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
