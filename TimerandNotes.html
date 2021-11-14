@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="https://cdn.glitch.me/b2c36ddf-d811-4307-86cb-e74943d685b3%2Ffavicon.png?v=1636848265403"
+    />
+    <title>Timer and notes</title>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body onload="timerText()">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <img
+            src="https://cdn.glitch.me/b2c36ddf-d811-4307-86cb-e74943d685b3%2Ffavicon.png?v=1636848265403"
+            style="padding:20px"
+            alt="logo"
+            width="50"
+            height="50"
+          />
+          <li class="nav"><a href="index.html">Home</a></li>
+
+          <li class="nav">
+            <a href="EditingandFilters.html">Editing and Filters</a>
+          </li>
+          <li class="nav"><a href="Wholesome.html">Positive Interaction</a></li>
+          <li class="nav">
+            <a href="TimerandNotes.html">Life outside of social media</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div
+      style="background-image: url('https://cdn.glitch.me/b2c36ddf-d811-4307-86cb-e74943d685b3%2Fstarsbackground.png?v=1636840420650');"
+    >
+      <h1 class="header">Study Timer and Notes</h1>
+      <h2
+        style="color:#fcf4e8; background-color: #482a61; margin-left: 5%; margin-right: 5%; margin-top: 3%; margin-bottom: 1%;"
+      >
+        <br />
+        Social media can seem like an easy escape when your own life feels
+        undesirable. Giving your life structure is a small solution to make
+        everything seem out of this world amazing! Pomodoro timers are a way to
+        work that gives your brain plenty of breaks! Work in intervals of
+        twenty-five minutes with five minute rest periods so you don’t space
+        out.
+        <br />
+        <br />
+      </h2>
+
+      <div class="row">
+        <div class="invisirow">
+          <div class="column">
+            <form id="frm1">
+              <div class="form_q">><br /></div>
+              <div class="form_a" id="addEvent">
+                <input type="text" id="event" name="event" />
+              </div>
+              <!--<input type="submit" onclick="createEvent(document.getElementById("event"))" class="submitButton" form="addEvent" />-->
+            </form>
+          </div>
+
+          <div class="column"></div>
+          <div class="column">
+            <form>
+              <input type="text" id="note" name="note" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2
+          style="color:#fcf4e8; background-color: #6AA6A6; margin-left: 25%; margin-right: 25%"
+        >
+          Pomodoro Timer
+        </h2>
+        <button id="startButton" class="glitch">Click me</button>
+        <br />
+        <button id="startButton" onclick="timerOne()" class="timerButton">
+          Begin timer!
+        </button>
+      </div>
+      <br />
+      <div class="row">
+        <div class="pad_col"><br /></div>
+        <div class="study_col" id="colOne">
+          <br />
+          <p>1: Study</p>
+          <p id="studyOne">25:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+        <div class="break_col" id="colTwo">
+          <br />
+          <p>2: Break</p>
+          <p id="breakOne">5:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+        <div class="study_col" id="colThree">
+          <br />
+          <p>3: Study</p>
+          <p id="studyTwo">25:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+        <div class="break_col" id="colFour">
+          <br />
+          <p>4: Break</p>
+          <p id="breakTwo">5:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+        <div class="study_col" id="colFive">
+          <br />
+          <p>5: Study</p>
+          <p id="studyThree">25:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+        <div class="break_col" id="colSix">
+          <br />
+          <p>6: Break</p>
+          <p id="breakThree">5:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+        <div class="study_col" id="colSeven">
+          <br />
+          <p>7: Study</p>
+          <p id="studyFour">25:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+        <div class="break_col" id="colEight">
+          <br />
+          <p>8: Break</p>
+          <p id="breakFour">30:00</p>
+          <br />
+        </div>
+        <div class="pad_col"><br /></div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
